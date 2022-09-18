@@ -23,7 +23,8 @@
 ## English README
 
 This datapack adds a new furnace/blast furnace recipe for raw ore blocks  
-Melts raw ore blocks into mineral blocks at a 9x slower rate
+Melts raw ore blocks into mineral blocks at a 9x slower rate  
+Experience is also given at 9 times  
 
 **Supported blocks:**
 |             ID             |        Name       |
@@ -37,8 +38,9 @@ Melts raw ore blocks into mineral blocks at a 9x slower rate
 
 ## 简体中文说明书
 
-此数据包新增了粗矿块的熔炉/高炉配方  
-可将粗矿块以9倍慢的方式烧成矿物块
+此数据包新增了粗矿块的熔炉及高炉配方  
+可将粗矿块以9倍慢的方式烧成矿物块  
+经验也会以9倍给予  
 
 **支援的方块有：**
 |             ID             |中文名|
@@ -52,8 +54,9 @@ Melts raw ore blocks into mineral blocks at a 9x slower rate
 
 ## 繁體中文說明書
 
-此資料包新增了原礦塊的熔爐/高爐配方  
-可將原礦塊以9倍慢的方式燒成礦物塊
+此資料包新增了原礦塊的熔爐及高爐配方  
+可將原礦塊以9倍慢的方式燒成礦物塊  
+經驗也會以9倍給予  
 
 **支援的方塊有：**
 |             ID             |中文名|
