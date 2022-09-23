@@ -1,22 +1,23 @@
 # Raw Ores Processing Datapack<br>粗矿处理数据包<br>原礦處理資料包
 
-- [**Gallery 画廊 畫廊**](#gallery-画廊-畫廊)
-- [**English README**](#english-readme)
-- [**简体中文说明书**](#简体中文说明书)
-- [**繁體中文說明書**](#繁體中文說明書)
+- [Raw Ores Processing Datapack<br>粗矿处理数据包<br>原礦處理資料包](#raw-ores-processing-datapack粗矿处理数据包原礦處理資料包)
+  - [Gallery 画廊 畫廊](#gallery-画廊-畫廊)
+  - [English README](#english-readme)
+  - [简体中文说明书](#简体中文说明书)
+  - [繁體中文說明書](#繁體中文說明書)
 
 ---
 
 ## Gallery 画廊 畫廊
 
 >Furnace  
->![](./img/0.png)  
+>![./img/0.png](./img/0.png)  
 
 >Blast Furnace  
->![](./img/1.png)  
+>![./img/1.png](./img/1.png)  
 
 >Mod Support  
->![](./img/2.png)
+>![./img/2.png](./img/2.png)
 
 ---
 
