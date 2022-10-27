@@ -44,6 +44,6 @@
 
 ## 其他连结
 
-Github: [https://github.com/Mango-Minecraft-Project/Raw-Ores-Processing-Datapack](https://github.com/Mango-Minecraft-Project/Raw-Ores-Processing-Datapack "Github")  
-MC百科: [https://www.mcmod.cn/class/7643.html](https://www.mcmod.cn/class/7643.html "MC百科")  
-CurseForge: [https://www.curseforge.com/minecraft/texture-packs/raw-ores-processing-datapack](https://www.curseforge.com/minecraft/texture-packs/raw-ores-processing-datapack "CurseForge")
+Github: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github "Github")  
+MC百科: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod "MC百科")  
+CurseForge: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge "CurseForge")

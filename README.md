@@ -46,8 +46,8 @@ Experience is also given at 9 times
 
 ## About Links
 
-Github: [https://github.com/Mango-Minecraft-Project/Raw-Ores-Processing-Datapack](https://github.com/Mango-Minecraft-Project/Raw-Ores-Processing-Datapack "Github")  
-MCMOD: [https://www.mcmod.cn/class/7643.html](https://www.mcmod.cn/class/7643.html "MCMOD")  
-CurseForge: [https://www.curseforge.com/minecraft/texture-packs/raw-ores-processing-datapack](https://www.curseforge.com/minecraft/texture-packs/raw-ores-processing-datapack "CurseForge")
+Github: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github "Github")  
+MCMOD: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod "MCMOD")  
+CurseForge: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge "CurseForge")
 
 ---
