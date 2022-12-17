@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "cSpell.words": [
+    "adamantium",
+    "cookingtime",
+    "Datapack",
+    "mekanism",
+    "minecraft",
+    "modid",
+    "simpleores",
+    "STRVS",
+    "tconstruct"
+  ]
+}

@@ -1,6 +1,0 @@
-{
-    "pack": {
-        "pack_format": 9,
-        "description": "§e[ROP-D] Raw Ores Processing Datapack§r\nThis datapack adds a new furnace/blast furnace recipe for raw ore blocks\nMelts raw ore blocks into mineral blocks at a 9x slower rate\nExperience is also given at 9 times"
-    }
-}
