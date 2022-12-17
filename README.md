@@ -46,8 +46,8 @@ Experience is also given at 9 times
 
 ## About Links
 
-Github: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github "Github")  
-MCMOD: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod "MCMOD")  
-CurseForge: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge "CurseForge")
+Github:   
+MCMOD:   
+CurseForge:
 
 ---

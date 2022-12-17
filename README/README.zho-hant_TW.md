@@ -42,8 +42,12 @@
 | `minecraft:raw_gold_block`   | 金原礦塊 |
 | `create:raw_zinc_block`      | 鋅原礦塊 |
 
+---
+
 ## 其他連結
 
-Github: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/github "Github")  
-MC百科: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/mcmod "MC百科")  
-CurseForge: [https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge](https://mango-serives.github.io/src/link-list/RawOresProcessing-Datapack/curseforge "CurseForge")
+Github:  
+MC百科:  
+CurseForge:
+
+---
