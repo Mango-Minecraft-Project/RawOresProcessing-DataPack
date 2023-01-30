@@ -1,10 +1,10 @@
-<p align="center">
+<div align="center">
 
 # 原礦處理資料包
 ![../img/icon/icon%20400x400.png](../img/icon/icon%20400x400.png)  
 | [English README](../README.md) | [简体中文说明书](./README.zho-Hans_CN.md) | >繁體中文說明書< |
 
-</p>
+</div>
 
 ---
 
