@@ -1,10 +1,10 @@
-<center>
+<p align="center">
 
 # Raw Ores Processing Datapack
 ![./img/icon/icon%20400x400.png](./img/icon/icon%20400x400.png)  
 | >English README< | [简体中文说明书](.//docsREADME.zho-hants_CN.md) | [繁體中文說明書](.//docsREADME.zho-hant_TW.md) |
 
-</center>
+</p>
 
 ---
 

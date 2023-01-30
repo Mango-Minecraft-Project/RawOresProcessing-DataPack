@@ -1,10 +1,10 @@
-<center>
+<p align="center">
 
 # 原矿处理资料包
 ![../img/icon/icon%20400x400.png](../img/icon/icon%20400x400.png)  
 | [English README](../README.md) | >简体中文说明书< | [繁體中文說明書](./README.zho-hant_TW.md) |
 
-</center>
+</p>
 
 ---
 
