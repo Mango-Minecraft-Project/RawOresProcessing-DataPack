@@ -1,0 +1,29 @@
+[minecraft]
+raw_copper_block = "cooper_block"
+raw_gold_block = "gold_block"
+raw_iron_block = "iron_block"
+
+
+[create]
+raw_zinc_block = "zinc_block"
+
+
+[mekanism]
+block_raw_osmium = "block_osmium"
+
+
+[simpleores]
+raw_adamantium_block = "adamantium_block"
+raw_mythril_block = "mythril_block"
+raw_tin_block = "tin_block"
+
+
+[tconstruct]
+raw_cobalt_block = "cobalt_block"
+
+
+[thermal]
+raw_lead_block = "lead_block"
+raw_nickel_block = "nickel_block"
+raw_silver_block = "sliver_block"
+raw_tin_block = "tin_block"
