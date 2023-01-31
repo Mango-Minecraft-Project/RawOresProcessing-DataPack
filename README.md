@@ -46,8 +46,8 @@ Experience is also given at 9 times
 
 ## About Links
 
-Github:   
-MCMOD:   
-CurseForge:
+Github:  
+MCMOD:  
+CurseForge:  
 
 ---
