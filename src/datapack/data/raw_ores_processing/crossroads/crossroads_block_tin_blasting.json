@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "crossroads"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crossroads"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "crossroads:raw_tin_block"
+    }
+  ],
+  "result": "crossroads:block_tin",
+  "experience": 3.6,
+  "cookingtime": 900
+}
