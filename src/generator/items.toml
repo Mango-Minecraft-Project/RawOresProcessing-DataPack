@@ -27,3 +27,28 @@ raw_lead_block = "lead_block"
 raw_nickel_block = "nickel_block"
 raw_silver_block = "sliver_block"
 raw_tin_block = "tin_block"
+
+
+[crossroads]
+raw_tin_block = "block_tin"
+
+
+[mythicmetals]
+raw_adamantite_block = "adamantite_block"
+raw_aquarium_block = "aquarium_block"
+raw_banglum_block = "banglum_block"
+raw_carmot_block = "carmot_block"
+raw_kyber_block = "kyber_block"
+raw_manganese_block = "manganese_block"
+raw_midas_gold_block = "midas_gold_block"
+raw_mythril_block = "mythril_block"
+raw_orichalcum_block = "orichalcum_block"
+raw_osmium_block = "osmium_block"
+raw_palladium_block = "palladium_block"
+raw_platinum_block = "platinum_block"
+raw_prometheum_block = "prometheum_block"
+raw_quadrillum_block = "quadrillum_block"
+raw_runite_block = "runite_block"
+raw_silver_block = "silver_block"
+raw_stormyx_block = "stormyx_block"
+raw_tin_block = "tin_block"
