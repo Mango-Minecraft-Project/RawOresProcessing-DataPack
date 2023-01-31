@@ -1,41 +1,41 @@
 <div align="center">
 
-# Raw Ores Processing Datapack
+# 原礦處理資料包
 ![][icon]  
-| >English README< | [简体中文说明书][README-zh_cn] | [繁體中文說明書][README-zh_tw] |
+| [English README][README-en_us] | [简体中文说明书][README-zh_tw] | >繁體中文說明書< |
 
 </div>
 
 ---
 
-- [Raw Ores Processing Datapack](#raw-ores-processing-datapack)
-  - [Gallery](#gallery)
-  - [Description](#description)
-  - [Support Mods](#support-mods)
-  - [About Links](#about-links)
+- [原礦處理資料包](#原礦處理資料包)
+  - [畫廊](#畫廊)
+  - [說明](#說明)
+  - [支援的模組](#支援的模組)
+  - [其他連結](#其他連結)
 
 ---
 
-## Gallery
+## 畫廊
 
->Furnace  
->![./img/docs/0.png][gallery-0]  
+>熔爐  
+>![../img/docs/0.png][gallery-0]  
 
->Blast Furnace  
->![./img/docs/1.png][gallery-1]  
+>高爐  
+>![../img/docs/1.png][gallery-1]  
 
->Mod Support  
->![./img/docs/2.png][gallery-2]  
+>模組支援  
+>![../img/docs/2.png][gallery-2]  
 
 ---
 
-## Description
+## 說明
 
-This datapack adds a new furnace/blast furnace recipe for raw ore blocks  
-Melts raw ore blocks into mineral blocks at a 9x slower rate  
-Experience is also given at 9 times  
+此資料包新增了原礦塊的熔爐及高爐配方  
+可將原礦塊以9倍慢的方式燒成礦物塊  
+經驗也會以9倍給予  
 
-## Support Mods
+## 支援的模組
 
 - create
 - crossroads
@@ -47,10 +47,10 @@ Experience is also given at 9 times
 
 ---
 
-## About Links
+## 其他連結
 
 Github: [Github][github]  
-MCMOD: [MC百科][mcmod]  
+MC百科: [MC百科][mcmod]  
 Modrinth: [Modrinth][modrinth]  
 CurseForge: [CurseForge][curseforge]  
 
