@@ -1,2 +1,1 @@
-src/generator/result/*/
-src/generator/run.log
+__pycache__/
