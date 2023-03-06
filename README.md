@@ -37,13 +37,14 @@ Experience is also given at 9 times
 
 ## Support Mods
 
+- minecraft
 - create
-- crossroads
 - mekanism
-- mythicmetals
 - simpleores
 - tconstruct
 - thermal
+- crossroads
+- mythicmetals
 
 ---
 

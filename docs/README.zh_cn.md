@@ -37,13 +37,14 @@
 
 ## 支援的模组
 
+- minecraft
 - create
-- crossroads
 - mekanism
-- mythicmetals
 - simpleores
 - tconstruct
 - thermal
+- crossroads
+- mythicmetals
 
 ---
 

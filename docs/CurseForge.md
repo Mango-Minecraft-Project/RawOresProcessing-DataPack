@@ -6,12 +6,13 @@ Experience is also given at 9 times
 
 ## Support Mods
 
+- minecraft
 - create
-- crossroads
 - mekanism
-- mythicmetals
 - simpleores
 - tconstruct
 - thermal
+- crossroads
+- mythicmetals
 
 [img]: https://raw.githubusercontent.com/Mango-Minecraft-Project/RawOresProcessing-Datapack/main/img/icon/icon%20400x400.png
