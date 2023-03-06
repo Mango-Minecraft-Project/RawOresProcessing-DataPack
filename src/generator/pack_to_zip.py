@@ -1,9 +1,9 @@
-import shutil
+from shutil import make_archive
 
-version = '1.2'
+VERSION = "1.3"
 
-shutil.make_archive(
-    base_name = f'./src/generator/result/Raw-Ore-Processing-v{version}',
-    format = 'zip',
-    root_dir = './src/datapack/'
+make_archive(
+    base_name=f"./src/generator/result/Raw-Ore-Processing-v{VERSION}",
+    format="zip",
+    root_dir="./src/datapack/",
 )
