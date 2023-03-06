@@ -1,0 +1,8 @@
+- minecraft
+- create
+- mekanism
+- simpleores
+- tconstruct
+- thermal
+- crossroads
+- mythicmetals
