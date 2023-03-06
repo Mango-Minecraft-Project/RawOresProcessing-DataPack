@@ -5,10 +5,13 @@ from packages.local_data import *
 
 
 def gen_json(mod_id: str, ingredient_item: str, result_item: str, type: str) -> dict:
+    ingredient_item = f"{(mod_id + ':') * ((':' in ingredient_item)^1)}{ingredient_item}"
+    result_item = f"{(mod_id + ':') * ((':' in result_item)^1)}{result_item}"
+    
     data = {
         "type": f"minecraft:{type}",
-        "ingredient": [{"item": f"{mod_id}:{ingredient_item}"}],
-        "result": f"{mod_id}:{result_item}",
+        "ingredient": [{"item": f"{ingredient_item}"}],
+        "result": f"{result_item}",
         "experience": 3.6,
         "cookingtime": 900,
     }

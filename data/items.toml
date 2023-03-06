@@ -52,3 +52,39 @@ raw_runite_block = "runite_block"
 raw_silver_block = "silver_block"
 raw_stormyx_block = "stormyx_block"
 raw_tin_block = "tin_block"
+
+
+[planeteer_core]
+lead_block_raw = "lead_block_compressed"
+cobalt_block_raw = "cobalt_block_compressed"
+tin_block_raw = "tin_block_compressed"
+zinc_block_raw = "zinc_block_compressed"
+uranium_block_raw = "uranium_block_compressed"
+
+
+[immersiveengineering]
+raw_block_uranium = "storage_uranium"
+raw_block_lead = "storage_lead"
+raw_block_nickel = "storage_nickel"
+raw_block_silver = "storage_silver"
+raw_block_aluminum = "storage_aluminum"
+
+
+[beyond_earth]
+raw_calorite_block = "compressed_calorite"
+raw_desh_block = "compressed_desh"
+raw_ostrum_block = "compressed_ostrum"
+
+
+[galosphere]
+raw_silver_block = "silver_block"
+
+
+[cavesandcliffs]
+raw_copper_block = "minecraft:copper_block"
+raw_gold_block = "minecraft:gold_block"
+raw_iron_block = "minecraft:iron_block"
+
+
+[modern_industrialization]
+raw_titanium_block = ""
