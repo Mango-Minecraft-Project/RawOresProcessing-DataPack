@@ -84,7 +84,3 @@ raw_silver_block = "silver_block"
 raw_copper_block = "minecraft:copper_block"
 raw_gold_block = "minecraft:gold_block"
 raw_iron_block = "minecraft:iron_block"
-
-
-[modern_industrialization]
-raw_titanium_block = ""
