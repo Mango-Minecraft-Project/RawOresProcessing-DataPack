@@ -45,6 +45,11 @@
 - thermal
 - crossroads
 - mythicmetals
+- planeteer_core
+- immersiveengineering
+- beyond_earth
+- galosphere
+- cavesandcliffs
 
 ---
 

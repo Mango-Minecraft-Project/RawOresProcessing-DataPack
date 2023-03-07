@@ -45,6 +45,11 @@ Experience is also given at 9 times
 - thermal
 - crossroads
 - mythicmetals
+- planeteer_core
+- immersiveengineering
+- beyond_earth
+- galosphere
+- cavesandcliffs
 
 ---
 
