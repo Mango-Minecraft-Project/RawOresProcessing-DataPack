@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "cavesandcliffs"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cavesandcliffs"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "cavesandcliffs:raw_gold_block"
+    }
+  ],
+  "result": "minecraft:gold_block",
+  "experience": 3.6,
+  "cookingtime": 900
+}

@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "beyond_earth"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "beyond_earth"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "beyond_earth:raw_ostrum_block"
+    }
+  ],
+  "result": "beyond_earth:compressed_ostrum",
+  "experience": 3.6,
+  "cookingtime": 900
+}
