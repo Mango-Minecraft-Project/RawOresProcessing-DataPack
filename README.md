@@ -1,5 +1,3 @@
-# Move To [New Repo](https://github.com/Mango-Minecraft-Project/Mango-DataPack/blob/main/src/datapacks/raw-ore-processing)
-
 <div align="center">
 
 # Raw Ores Processing Datapack
