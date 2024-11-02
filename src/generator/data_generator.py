@@ -1,7 +1,7 @@
 import json
 import tomllib
 from typing import Final, Literal
-from shutil import make_archive, copy
+from shutil import make_archive, copy, rmtree
 from pathlib import Path
 
 
@@ -22,7 +22,7 @@ with open(CWD / "data/items.toml", "rb") as file:
 
 SORT_KEYS: Final[list[str]] = [
     "neoforge:conditions",
-    "conditions",
+    "forge:conditions",
     "fabric:load_conditions",
     "type",
     "ingredient",
@@ -76,15 +76,15 @@ def generate_json(
         recipe_data |= {
             "fabric:load_conditions": [
                 {
-                    "type": "fabric:and",
+                    "condition": "fabric:and",
                     "values": [
-                        {"type": "fabric:mod_loaded", "modid": namespace},
-                        {"type": "fabric:item_exists", "item": ingredient_id},
-                        {"type": "fabric:item_exists", "item": result_id},
+                        {"condition": "fabric:all_mods_loaded", "values": [namespace]},
+                        {"condition": "fabric:registry_contains", "values": [ingredient_id]},
+                        {"condition": "fabric:registry_contains", "values": [result_id]},
                     ],
                 }
             ],
-            "conditions": [
+            "forge:conditions": [
                 {
                     "type": "forge:and",
                     "values": [
@@ -110,6 +110,8 @@ def generate_json(
 
 
 for support_version_range, GENERATE_DIR in GENERATE_DIRS.items():
+    rmtree(GENERATE_DIR, ignore_errors=True)
+
     for namespace, mod_items in ITEMS_DATA.items():
         data_path = GENERATE_DIR / namespace
         data_path.mkdir(parents=True, exist_ok=True)
@@ -133,8 +135,12 @@ for support_version_range, GENERATE_DIR in GENERATE_DIRS.items():
         DATAPACK_DIR / "pack.png",
         target_dir / "pack.png",
     )
+
+    archive_file = CWD / f"src/generator/result/Raw-Ore-Processing_v{DATAPACK_RELEASE_VERSION}_{support_version_range}"
+    archive_file.unlink(missing_ok=True)
+
     make_archive(
-        CWD / f"src/generator/result/Raw-Ore-Processing_v{DATAPACK_RELEASE_VERSION}_{support_version_range}",
+        archive_file,
         "zip",
         target_dir,
     )
