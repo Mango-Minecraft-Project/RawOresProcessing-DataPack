@@ -28,7 +28,7 @@ raw_cobalt_block = "cobalt_block"
 [thermal]
 raw_lead_block = "lead_block"
 raw_nickel_block = "nickel_block"
-raw_silver_block = "sliver_block"
+raw_silver_block = "silver_block"
 raw_tin_block = "tin_block"
 
 
