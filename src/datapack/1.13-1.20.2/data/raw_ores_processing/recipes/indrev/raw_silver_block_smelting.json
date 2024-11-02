@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "indrev"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "indrev:raw_silver_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "indrev:silver_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "indrev"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "indrev:raw_silver_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "indrev:silver_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "indrev"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "indrev:raw_silver_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "indrev:silver_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "indrev:raw_silver_block"
+    }
+  ],
+  "result": "indrev:silver_block",
+  "experience": 3.6,
+  "cookingtime": 1800
+}

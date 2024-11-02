@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:block_raw_tin"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:block_tin"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mekanism:block_raw_tin"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mekanism:block_tin"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "mekanism"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mekanism:block_raw_tin"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mekanism:block_tin"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "mekanism:block_raw_tin"
+    }
+  ],
+  "result": "mekanism:block_tin",
+  "experience": 3.6,
+  "cookingtime": 1800
+}

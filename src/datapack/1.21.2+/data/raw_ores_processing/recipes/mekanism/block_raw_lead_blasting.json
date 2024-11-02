@@ -1,0 +1,72 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:block_raw_lead"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:block_lead"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mekanism:block_raw_lead"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mekanism:block_lead"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "mekanism"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mekanism:block_raw_lead"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mekanism:block_lead"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": "mekanism:block_raw_lead",
+  "result": {
+    "id": "mekanism:block_lead"
+  },
+  "experience": 3.6,
+  "cookingtime": 900
+}

@@ -1,0 +1,72 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thermal"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "thermal:raw_nickel_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "thermal:nickel_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thermal:raw_nickel_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thermal:nickel_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "thermal"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "thermal:raw_nickel_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "thermal:nickel_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": "thermal:raw_nickel_block",
+  "result": {
+    "id": "thermal:nickel_block"
+  },
+  "experience": 3.6,
+  "cookingtime": 1800
+}

@@ -10,6 +10,9 @@ raw_zinc_block = "zinc_block"
 
 [mekanism]
 block_raw_osmium = "block_osmium"
+block_raw_tin = "block_tin"
+block_raw_lead = "block_lead"
+block_raw_uranium = "block_uranium"
 
 
 [simpleores]
@@ -84,3 +87,28 @@ raw_silver_block = "silver_block"
 raw_copper_block = "minecraft:copper_block"
 raw_gold_block = "minecraft:gold_block"
 raw_iron_block = "minecraft:iron_block"
+
+[alltheores]
+raw_aluminum_block = "aluminum_block"
+raw_lead_block = "lead_block"
+raw_nickel_block = "nickel_block"
+raw_osmium_block = "osmium_block"
+raw_platinum_block = "platinum_block"
+raw_silver_block = "silver_block"
+raw_tin_block = "tin_block"
+raw_uranium_block = "uranium_block"
+raw_zinc_block = "zinc_block"
+raw_iridium_block = "iridium_block"
+
+[techreborn]
+raw_tin_storage_block = "tin_storage_block"
+raw_lead_storage_block = "lead_storage_block"
+raw_silver_storage_block = "silver_storage_block"
+raw_iridium_storage_block = "iridium_storage_block"
+raw_tungsten_storage_block = "tungsten_storage_block"
+
+[indrev]
+raw_lead_block = "lead_block"
+raw_silver_block = "silver_block"
+raw_tungsten_block = "tungsten_block"
+raw_tin_block = "tin_block"

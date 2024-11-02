@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "beyond_earth"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "beyond_earth:raw_desh_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "beyond_earth:compressed_desh"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "beyond_earth"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "beyond_earth:raw_desh_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "beyond_earth:compressed_desh"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "beyond_earth"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "beyond_earth:raw_desh_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "beyond_earth:compressed_desh"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "beyond_earth:raw_desh_block"
+    }
+  ],
+  "result": "beyond_earth:compressed_desh",
+  "experience": 3.6,
+  "cookingtime": 1800
+}

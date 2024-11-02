@@ -1,0 +1,72 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mythicmetals"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mythicmetals:raw_adamantite_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mythicmetals:adamantite_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mythicmetals"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mythicmetals:raw_adamantite_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mythicmetals:adamantite_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "mythicmetals"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mythicmetals:raw_adamantite_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mythicmetals:adamantite_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": "mythicmetals:raw_adamantite_block",
+  "result": {
+    "id": "mythicmetals:adamantite_block"
+  },
+  "experience": 3.6,
+  "cookingtime": 900
+}

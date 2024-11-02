@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "galosphere"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "galosphere:raw_silver_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "galosphere:silver_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "galosphere"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "galosphere:raw_silver_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "galosphere:silver_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "galosphere"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "galosphere:raw_silver_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "galosphere:silver_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "galosphere:raw_silver_block"
+  },
+  "result": {
+    "id": "galosphere:silver_block"
+  },
+  "experience": 3.6,
+  "cookingtime": 1800
+}

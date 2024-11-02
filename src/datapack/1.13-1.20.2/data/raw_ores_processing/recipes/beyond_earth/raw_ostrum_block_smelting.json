@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "beyond_earth"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "beyond_earth:raw_ostrum_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "beyond_earth:compressed_ostrum"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "beyond_earth"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "beyond_earth:raw_ostrum_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "beyond_earth:compressed_ostrum"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "beyond_earth"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "beyond_earth:raw_ostrum_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "beyond_earth:compressed_ostrum"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "beyond_earth:raw_ostrum_block"
+    }
+  ],
+  "result": "beyond_earth:compressed_ostrum",
+  "experience": 3.6,
+  "cookingtime": 1800
+}

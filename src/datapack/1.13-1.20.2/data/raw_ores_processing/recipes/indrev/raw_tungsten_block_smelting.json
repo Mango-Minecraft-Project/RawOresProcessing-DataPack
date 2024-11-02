@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "indrev"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "indrev:raw_tungsten_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "indrev:tungsten_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "indrev"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "indrev:raw_tungsten_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "indrev:tungsten_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "indrev"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "indrev:raw_tungsten_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "indrev:tungsten_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "indrev:raw_tungsten_block"
+    }
+  ],
+  "result": "indrev:tungsten_block",
+  "experience": 3.6,
+  "cookingtime": 1800
+}

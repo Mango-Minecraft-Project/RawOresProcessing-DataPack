@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "alltheores"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "alltheores:raw_silver_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "alltheores:silver_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "alltheores"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "alltheores:raw_silver_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "alltheores:silver_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "alltheores"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "alltheores:raw_silver_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "alltheores:silver_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "alltheores:raw_silver_block"
+    }
+  ],
+  "result": "alltheores:silver_block",
+  "experience": 3.6,
+  "cookingtime": 900
+}

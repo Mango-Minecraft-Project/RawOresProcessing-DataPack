@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "tconstruct"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "tconstruct:raw_cobalt_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "tconstruct:cobalt_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "tconstruct:raw_cobalt_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "tconstruct:cobalt_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "tconstruct"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "tconstruct:raw_cobalt_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "tconstruct:cobalt_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tconstruct:raw_cobalt_block"
+  },
+  "result": {
+    "id": "tconstruct:cobalt_block"
+  },
+  "experience": 3.6,
+  "cookingtime": 1800
+}

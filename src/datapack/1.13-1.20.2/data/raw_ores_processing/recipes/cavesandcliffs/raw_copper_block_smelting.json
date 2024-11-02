@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "cavesandcliffs"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "cavesandcliffs:raw_copper_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "minecraft:copper_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "cavesandcliffs"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "cavesandcliffs:raw_copper_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "minecraft:copper_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "cavesandcliffs"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "cavesandcliffs:raw_copper_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "minecraft:copper_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "cavesandcliffs:raw_copper_block"
+    }
+  ],
+  "result": "minecraft:copper_block",
+  "experience": 3.6,
+  "cookingtime": 1800
+}

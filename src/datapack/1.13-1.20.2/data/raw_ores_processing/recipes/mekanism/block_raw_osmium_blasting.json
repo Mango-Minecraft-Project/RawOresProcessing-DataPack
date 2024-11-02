@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:block_raw_osmium"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:block_osmium"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mekanism:block_raw_osmium"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mekanism:block_osmium"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "mekanism"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mekanism:block_raw_osmium"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mekanism:block_osmium"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "mekanism:block_raw_osmium"
+    }
+  ],
+  "result": "mekanism:block_osmium",
+  "experience": 3.6,
+  "cookingtime": 900
+}

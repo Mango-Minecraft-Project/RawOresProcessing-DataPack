@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "beyond_earth"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "beyond_earth:raw_calorite_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "beyond_earth:compressed_calorite"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "beyond_earth"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "beyond_earth:raw_calorite_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "beyond_earth:compressed_calorite"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "beyond_earth"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "beyond_earth:raw_calorite_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "beyond_earth:compressed_calorite"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "beyond_earth:raw_calorite_block"
+    }
+  ],
+  "result": "beyond_earth:compressed_calorite",
+  "experience": 3.6,
+  "cookingtime": 900
+}

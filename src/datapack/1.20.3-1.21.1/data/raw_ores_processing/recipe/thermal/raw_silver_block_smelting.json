@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "thermal"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "thermal:raw_silver_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "thermal:sliver_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "thermal"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thermal:raw_silver_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "thermal:sliver_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "thermal"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "thermal:raw_silver_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "thermal:sliver_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "thermal:raw_silver_block"
+  },
+  "result": {
+    "id": "thermal:sliver_block"
+  },
+  "experience": 3.6,
+  "cookingtime": 1800
+}

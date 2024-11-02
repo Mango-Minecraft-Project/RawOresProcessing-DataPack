@@ -1,0 +1,72 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mythicmetals"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mythicmetals:raw_manganese_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mythicmetals:manganese_block"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mythicmetals"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mythicmetals:raw_manganese_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "mythicmetals:manganese_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "mythicmetals"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mythicmetals:raw_manganese_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "mythicmetals:manganese_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": "mythicmetals:raw_manganese_block",
+  "result": {
+    "id": "mythicmetals:manganese_block"
+  },
+  "experience": 3.6,
+  "cookingtime": 1800
+}

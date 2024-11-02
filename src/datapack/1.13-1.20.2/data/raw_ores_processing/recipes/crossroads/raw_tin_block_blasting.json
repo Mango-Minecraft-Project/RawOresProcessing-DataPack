@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "crossroads"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "crossroads:raw_tin_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "crossroads:block_tin"
+        }
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crossroads"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "crossroads:raw_tin_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "crossroads:block_tin"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "crossroads"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "crossroads:raw_tin_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "crossroads:block_tin"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "crossroads:raw_tin_block"
+    }
+  ],
+  "result": "crossroads:block_tin",
+  "experience": 3.6,
+  "cookingtime": 900
+}
