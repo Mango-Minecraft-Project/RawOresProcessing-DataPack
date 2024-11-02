@@ -50,6 +50,9 @@
 - beyond_earth
 - galosphere
 - cavesandcliffs
+- alltheores
+- techreborn
+- indrev
 
 ---
 

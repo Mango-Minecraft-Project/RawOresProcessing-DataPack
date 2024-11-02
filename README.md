@@ -50,6 +50,9 @@ Experience is also given at 9 times
 - beyond_earth
 - galosphere
 - cavesandcliffs
+- alltheores
+- techreborn
+- indrev
 
 ---
 

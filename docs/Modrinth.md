@@ -26,5 +26,8 @@ Experience is also given at 9 times
 - beyond_earth
 - galosphere
 - cavesandcliffs
+- alltheores
+- techreborn
+- indrev
 
 [img]: https://raw.githubusercontent.com/Mango-Minecraft-Project/RawOresProcessing-Datapack/main/img/icon/icon%20400x400.png
