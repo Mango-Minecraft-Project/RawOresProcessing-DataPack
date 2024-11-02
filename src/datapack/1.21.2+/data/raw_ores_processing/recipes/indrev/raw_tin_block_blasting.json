@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "forge:conditions": [
+  "conditions": [
     {
       "type": "forge:and",
       "values": [

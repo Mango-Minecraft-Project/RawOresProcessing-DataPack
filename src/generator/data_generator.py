@@ -22,7 +22,7 @@ with open(CWD / "data/items.toml", "rb") as file:
 
 SORT_KEYS: Final[list[str]] = [
     "neoforge:conditions",
-    "forge:conditions",
+    "conditions",
     "fabric:load_conditions",
     "type",
     "ingredient",
@@ -84,7 +84,7 @@ def generate_json(
                     ],
                 }
             ],
-            "forge:conditions": [
+            "conditions": [
                 {
                     "type": "forge:and",
                     "values": [
