@@ -12,5 +12,6 @@
 - galosphere
 - cavesandcliffs
 - alltheores
+- allthemodium
 - techreborn
 - indrev
