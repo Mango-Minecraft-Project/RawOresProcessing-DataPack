@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "allthemodium:raw_allthemodium_block"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "allthemodium:allthemodium_block"
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "allthemodium"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "allthemodium:raw_allthemodium_block"
+        },
+        {
+          "type": "forge:item_exists",
+          "item": "allthemodium:allthemodium_block"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:and",
+      "values": [
+        {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "allthemodium"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "allthemodium:raw_allthemodium_block"
+          ]
+        },
+        {
+          "condition": "fabric:registry_contains",
+          "values": [
+            "allthemodium:allthemodium_block"
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "allthemodium:raw_allthemodium_block"
+    }
+  ],
+  "result": "allthemodium:allthemodium_block",
+  "experience": 3.6,
+  "cookingtime": 900
+}
