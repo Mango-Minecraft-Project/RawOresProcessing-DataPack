@@ -100,6 +100,11 @@ raw_uranium_block = "uranium_block"
 raw_zinc_block = "zinc_block"
 raw_iridium_block = "iridium_block"
 
+[allthemodium]
+raw_allthemodium_block = "allthemodium_block"
+raw_unobtainium_block = "unobtainium_block"
+raw_vibranium_block = "vibranium_block"
+
 [techreborn]
 raw_tin_storage_block = "tin_storage_block"
 raw_lead_storage_block = "lead_storage_block"
